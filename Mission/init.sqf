@@ -39,7 +39,12 @@ DynamicVehicleDamageLow = 0; // Default: 0
 DynamicVehicleDamageHigh = 100; // Default: 100
 
 DZE_BuildOnRoads = false; // Default: False
-
+//------------------EDIT DZE's HERE-----------------
+DZE_R3F_WEIGHT = false;
+DZE_StaticConstructionCount = 1;
+DZE_GodModeBase = true;
+DZE_LootSpawnTimer = 10;
+//------------------END DZE's HERE-----------------
 EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
 dayz_fullMoonNights = true;
 
