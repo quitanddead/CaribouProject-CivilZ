@@ -12,6 +12,7 @@ Included Custom Addons
 Used Map/ current map
 --------------------------
 * Caribou Frontier by Raunhofer - http://forums.bistudio.com/showthread.php?161801-Caribou-Frontier
+
 --------------------------
 Map info:
 --------------------------
@@ -49,7 +50,7 @@ Epochmod credits:
 * QMGSaint - Beta Tester - http://www.twitch.tv/qmgsaint
 * Twitch.tv Streamers - http://www.twitch.tv/directory/game/DayZ
 * Thanks to all the other beta testers, you know who you are!
-Other addons:
+
 --------------------------
 MP7 Pack
 --------------------------
@@ -62,12 +63,14 @@ MP7 Pack
 'GvsE','ImbarFreezz','Sky08B0ss','TomProz' for his Testing!
 'Bohemia Interactive' for the ground Based Game!
 And all the Other great people of the Armed Assault Community who have Supported/Help me for my Project´s, BIG Thx. for it!
+
 --------------------------
 Cheytac Pack
 --------------------------
 USSRsniper: Model\texture, sound
 Dust2Dust: config, sound
 THX USSRsniper for permission to edit your mod.
+
 --------------------------
 L119A1 Pack
 --------------------------
@@ -80,6 +83,7 @@ Euan Mitchell "tigg" - Magpul E-Mag.
 Lennard - Compiling, textures, models, anims, configs and the boring copy and paste work.
 sushjake - Config help.
 Thanks to the VOLCBAT guys, DaveP, drmidnight, da12thMonkey and Rhodesy77 for beta testing.
+
 --------------------------
 M27 IAR Pack
 --------------------------
@@ -87,6 +91,7 @@ HK416 / foregrip model: Vilas
 ACOG RDS / PEQ-15: Alwarren
 Models sown together by / config work: Slatts 
 With many thanks to the 15th MEU Realism Unit. 
+
 --------------------------
 HK416 Pack
 --------------------------
@@ -125,6 +130,7 @@ config work: Robalo_AS , Stiltman (big thx) , and RobertHammer
 Sounds: RobertHammer and The Noid's M16 bolt sound
 Animations : Solus (SLX) and Norrin (Special thx)
 Cool Real optics: NonWonderDog and Fincuan
+
 --------------------------
 Pistol Pack
 --------------------------
@@ -159,10 +165,12 @@ config work: Q1184 anf RobertHammer
 Sounds: RobertHammer
 Improved sounds: Money (thx)
 Animations : Solus (SLX)
+
 --------------------------
 Tactical Shield Pack
 --------------------------
 Authors 3d models and textures - DAK
+
 --------------------------
 Tazer Pack
 --------------------------
@@ -177,11 +185,13 @@ This modification and its components were created from scratch by Double Doppler
 Thanks to the Life Project RPG development team & community for MP compatibility testing.
 
 © 2013 Double Doppler Modding
+
 --------------------------
 Backpack Pack
 --------------------------
 BIS - For their great games.
 People who take the time to mirror this addon - Special thanks.
+
 --------------------------
 Sigma Pack
 --------------------------
@@ -196,11 +206,13 @@ CAF=DaN
 CAF=Blackfox34
 A.Smith
 Gooback
+
 --------------------------
 German Civil Pack
 --------------------------
 mondkalb for his great help
 vilas for his cars
+
 --------------------------
 Civil Helis Pack
 --------------------------
