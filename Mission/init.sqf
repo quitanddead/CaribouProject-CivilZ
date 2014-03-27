@@ -23,7 +23,7 @@ enableSentences false;
 spawnShoremode = 1; // Default = 1 (on shore)
 spawnArea = 1500; // Default = 1500
 
-MaxVehicleLimit = 200; // Default = 50
+MaxVehicleLimit = 420; // Default = 50
 MaxDynamicDebris = 250; // Default = 100
 dayz_MapArea = 6000; // Default = 10000
 
@@ -38,14 +38,26 @@ dayz_tameDogs = true;
 DynamicVehicleDamageLow = 0; // Default: 0
 DynamicVehicleDamageHigh = 100; // Default: 100
 
-DZE_BuildOnRoads = false; // Default: False
+DZE_BuildOnRoads = true; // Default: False
 //------------------EDIT DZE's HERE-----------------
 DZE_R3F_WEIGHT = false;
+dayz_zedsAttackVehicles = false;
 DZE_StaticConstructionCount = 1;
-DZE_GodModeBase = true;
-DZE_LootSpawnTimer = 10;
+DZE_GodModeBase = false;
+DZE_LootSpawnTimer = 8;
+DZE_DeathMsgGlobal = false; 
+DZE_DeathMsgTitleText = true; 
+DZE_requireplot = 0;
+DZE_BuildingLimit = 500;
+DZE_BackpackGuard = false;
+MaxMineVeins = 0;
+DZE_HeliLift = false;
+DZE_PlayerZed = false;
+MaxHeliCrashes= 15; // Default = 5
+DZE_MissionLootTable = true;
+dayz_maxLocalZombies = 10; // Default = 30 
 //------------------END DZE's HERE------------------
-EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"]];
+EpochEvents = [["any","any","any","any",30,"crash_spawner"],["any","any","any","any",0,"crash_spawner"],["any","any","any","any",15,"supply_drop"],["any","any","any","any",10,"Military"],["any","any","any","any",25,"Treasure"],["any","any","any","any",40,"Supplyitems"],["any","any","any","any",55,"Construction"]];
 dayz_fullMoonNights = true;
 
 
@@ -77,11 +89,18 @@ if (!isDedicated) then {
 	0 fadeSound 0;
 	waitUntil {!isNil "dayz_loadScreenMsg"};
 	dayz_loadScreenMsg = (localize "STR_AUTHENTICATING");
-	
+	execVM "SERVICE\service_point.sqf";
+
 	//Run the player monitor
 	_id = player addEventHandler ["Respawn", {_id = [] spawn player_death;}];
 	_playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";	
 	
+	// Custom Monitor
+	[] execVM "scripts\custom_monitor.sqf";
+	
+	
+	// Evac Chopper
+	[] execVM "addons\JAEM\EvacChopper_init.sqf";	
 	
 	//anti Hack
 	//[] execVM "\z\addons\dayz_code\system\antihack.sqf";
@@ -93,3 +112,17 @@ if (!isDedicated) then {
 //Start Dynamic Weather
 execVM "\z\addons\dayz_code\external\DynamicWeatherEffects.sqf";
 #include "\z\addons\dayz_code\system\BIS_Effects\init.sqf"
+
+// auto refuell
+[] execVM "scripts\kh_actions.sqf"; 
+
+
+// Lift und Tow
+[] execVM "R3F_ARTY_AND_LOG\init.sqf";	
+
+// Safe Zone
+[] execVM "scripts\safezone.sqf";
+
+// Custom Menu
+[] execVM "scripts\custom_menu.sqf";
+
