@@ -28,14 +28,14 @@ fnc_debug = {
 				<t size='1' font='Bitstream' align='center' color='#DDDDDD'></t><br/>
 				<t size='1' font='Bitstream' align='left' color='#B40404'>Life energy:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%1</t><br/>
 				<t size='1' font='Bitstream' align='left' color='#2E64FE'>Humanity:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%2</t><br/>
-				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Heros:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%3</t><br/>
-				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Assholes:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%4</t><br/>
-				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Zombitches:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%5</t><br/>
+				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Heroes:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%3</t><br/>
+				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Bandits:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%4</t><br/>
+				<t size='1' font='Bitstream' align='left' color='#EEC900'>Killed Zombies:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%5</t><br/>
 				<t size='1' font='Bitstream' align='left' color='#EEC900'></t><br/>
 				<t size='1' font='Bitstream' align='left' color='#EEC900'>FPS:</t><t size='1' font='Bitstream' align='right' color='#FFFAF0'>%14</t><br/>
 				<t size='1' font='Bitstream' align='center' color='#DDDDDD'></t><br/>
 				<t size='1' font='Bitstream' align='center' color='#DDDDDD'></t><br/>
-				<t size='1' font='Bitstream' align='center' color='#DDDDDD'>Randy's Epoch(%17/42)</t><br/>",
+				<t size='1' font='Bitstream' align='center' color='#DDDDDD'>Randy's Epoch Caribou(%17/42)</t><br/>",
 
 							r_player_blood,												//1
 							round _humanity,											//2
