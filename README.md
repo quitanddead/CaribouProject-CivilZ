@@ -38,7 +38,7 @@ Developers
 --------------------------
 Contributors
 --------------------------
-* None jet!
+* ARM - Loïs - http://gyazo.com/0530fb07552b1e0b0e54ee91fce883d2
 
 --------------------------
 Credits
